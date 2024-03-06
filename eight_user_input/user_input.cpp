@@ -12,5 +12,19 @@ int main() {
 
     cout << text << endl;
 
+    cout << "Enter your name: " << flush;
+
+    string input;
+
+    cin >> input;
+
+    cout << "Your name is " << input << "." << endl;
+
+    cout << "How many dogs do you have? " << flush;
+    int num_dogs;
+    cin >> num_dogs;
+
+    cout << input + " has " << num_dogs << " dogs." << endl;
+
     return 0;
 }
